@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     //MARK: 인스턴스 생성
     var 접두_접미 = 접두사_접미사()
     var 인_덱스 = 인덱스()
+    var 배_열 = 배열()
     
     
     override func viewDidLoad() {
@@ -32,7 +33,7 @@ class ViewController: UIViewController {
         
         
     
-        centerlabel.text = "\(인_덱스.r3)"
+        centerlabel.text = "\(배_열.n4)"
     }
     
     func setCenterLabel(){

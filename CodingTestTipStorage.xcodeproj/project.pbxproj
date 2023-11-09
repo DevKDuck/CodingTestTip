@@ -19,6 +19,7 @@
 		8CEF04202AFCA9CA006E1950 /* CodingTestTipStorageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF041F2AFCA9CA006E1950 /* CodingTestTipStorageUITestsLaunchTests.swift */; };
 		8CEF042D2AFCAB0E006E1950 /* 접두사,접미사.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF042C2AFCAB0E006E1950 /* 접두사,접미사.swift */; };
 		8CEF04302AFCC8DE006E1950 /* 인덱스.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF042F2AFCC8DE006E1950 /* 인덱스.swift */; };
+		8CEF04332AFCD3EF006E1950 /* 배열.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF04322AFCD3EF006E1950 /* 배열.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		8CEF041F2AFCA9CA006E1950 /* CodingTestTipStorageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingTestTipStorageUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8CEF042C2AFCAB0E006E1950 /* 접두사,접미사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "접두사,접미사.swift"; sourceTree = "<group>"; };
 		8CEF042F2AFCC8DE006E1950 /* 인덱스.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "인덱스.swift"; sourceTree = "<group>"; };
+		8CEF04322AFCD3EF006E1950 /* 배열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "배열.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		8CEF03F82AFCA9C7006E1950 /* CodingTestTipStorage */ = {
 			isa = PBXGroup;
 			children = (
+				8CEF04312AFCD380006E1950 /* 배열 */,
 				8CEF042E2AFCAB14006E1950 /* 문자열 */,
 				8CEF03F92AFCA9C7006E1950 /* AppDelegate.swift */,
 				8CEF03FB2AFCA9C7006E1950 /* SceneDelegate.swift */,
@@ -143,6 +146,15 @@
 			);
 			name = "문자열";
 			path = "문자열";
+			sourceTree = "<group>";
+		};
+		8CEF04312AFCD380006E1950 /* 배열 */ = {
+			isa = PBXGroup;
+			children = (
+				8CEF04322AFCD3EF006E1950 /* 배열.swift */,
+			);
+			name = "배열";
+			path = "배열";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CEF04332AFCD3EF006E1950 /* 배열.swift in Sources */,
 				8CEF03FE2AFCA9C7006E1950 /* ViewController.swift in Sources */,
 				8CEF04042AFCA9C7006E1950 /* CodingTestTipStorage.xcdatamodeld in Sources */,
 				8CEF042D2AFCAB0E006E1950 /* 접두사,접미사.swift in Sources */,
