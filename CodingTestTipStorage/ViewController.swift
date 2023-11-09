@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     var 접두_접미 = 접두사_접미사()
     var 인_덱스 = 인덱스()
     var 배_열 = 배열()
+    var 딕셔_너리 = 딕셔너리(dic: [:])
     
     
     override func viewDidLoad() {
@@ -32,8 +33,18 @@ class ViewController: UIViewController {
         setCenterLabel()
         
         
-    
-        centerlabel.text = "\(배_열.n4)"
+        centerlabel.text = String(딕셔_너리.dic["DK",default: 1])
+        
+        /*
+        if let val = 딕셔_너리.dic["k"]{
+            centerlabel.text = String(val)
+        }
+        else{
+            centerlabel.text = "nil"
+        }
+         딕셔너리 확인
+         */
+        
     }
     
     func setCenterLabel(){
