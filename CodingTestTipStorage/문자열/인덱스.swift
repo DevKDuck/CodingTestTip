@@ -32,12 +32,27 @@ struct 인덱스{
     
     lazy var d1 = a[0...2] //"DevKDuck","데브킹덕","뎁덕"
     
+    //MARK: 배열 슬라이싱
+    
+    lazy var s1 = s[s.startIndex...s.index(s.endIndex, offsetBy: -2)] //DevKDuc
     
     
+    //MARK: 뒤집기
+    //ReversedCollection<String>타입 반환 -> String변환 필요
+    lazy var r = String(s.reversed()) //kcuDKveD
+    
+    lazy var r2 = Array(a.reversed()) //["DK","뎁덕","데브킹덕","DevKDuck"]
     
     
+    //MARK: 문자열 곱셈 (repeating: , count: )
+    lazy var m1 = String(repeating: s, count: 3) //DevKDuckDevKDuckDevKDuck
+    
+    lazy var m2 = Array(repeating: a, count: 2)
+    //[["DevKDuck","데브킹덕","뎁덕","DK"],["DevKDuck","데브킹덕","뎁덕","DK"]]
     
     
-    
+    //MARK: 교환 - replacingOccurrences(of: 바꿀 문자, with: 바뀔 문자)
+    lazy var r3 = s.replacingOccurrences(of: "Dev", with: "데브") //데브KDuck
+
     
 }

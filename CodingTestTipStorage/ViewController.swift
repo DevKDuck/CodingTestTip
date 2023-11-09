@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         
         
     
-        centerlabel.text = "\(인_덱스.c3)"
+        centerlabel.text = "\(인_덱스.r3)"
     }
     
     func setCenterLabel(){
