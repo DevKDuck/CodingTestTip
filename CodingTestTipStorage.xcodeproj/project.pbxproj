@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C205A5F2AFDE3F200CE321E /* reversedQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C205A5E2AFDE3F200CE321E /* reversedQueue.swift */; };
 		8CEF03FA2AFCA9C7006E1950 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF03F92AFCA9C7006E1950 /* AppDelegate.swift */; };
 		8CEF03FC2AFCA9C7006E1950 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF03FB2AFCA9C7006E1950 /* SceneDelegate.swift */; };
 		8CEF03FE2AFCA9C7006E1950 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF03FD2AFCA9C7006E1950 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C205A5E2AFDE3F200CE321E /* reversedQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reversedQueue.swift; sourceTree = "<group>"; };
 		8CEF03F62AFCA9C7006E1950 /* CodingTestTipStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingTestTipStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEF03F92AFCA9C7006E1950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CEF03FB2AFCA9C7006E1950 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				8CEF04382AFCE434006E1950 /* popLastQueue.swift */,
+				8C205A5E2AFDE3F200CE321E /* reversedQueue.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				8CEF04332AFCD3EF006E1950 /* 배열.swift in Sources */,
 				8CEF03FE2AFCA9C7006E1950 /* ViewController.swift in Sources */,
 				8CEF04042AFCA9C7006E1950 /* CodingTestTipStorage.xcdatamodeld in Sources */,
+				8C205A5F2AFDE3F200CE321E /* reversedQueue.swift in Sources */,
 				8CEF04362AFCD998006E1950 /* 딕셔너리.swift in Sources */,
 				8CEF042D2AFCAB0E006E1950 /* 접두사,접미사.swift in Sources */,
 				8CEF04302AFCC8DE006E1950 /* 인덱스.swift in Sources */,
