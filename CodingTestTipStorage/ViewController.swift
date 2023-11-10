@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     var 인_덱스 = 인덱스()
     var 배_열 = 배열()
     var 딕셔_너리 = 딕셔너리(dic: [:])
+    var q = Queue<Int>()
     
     
     override func viewDidLoad() {
@@ -32,8 +33,10 @@ class ViewController: UIViewController {
         
         setCenterLabel()
         
+        q.inputStack = [1]
+        q.append(2)
         
-        centerlabel.text = String(딕셔_너리.dic["DK",default: 1])
+        centerlabel.text = "\(q.isEmpty())"
         
         /*
         if let val = 딕셔_너리.dic["k"]{
